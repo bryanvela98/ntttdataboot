@@ -1,3 +1,4 @@
+//Cod. Propio
 // Buscar data del usuario desde BACKEND
 fetch('/api/users')
     .then(response => response.json())
