@@ -2,10 +2,15 @@
 // Importación de módulos necesarios
 const express = require('express'); //Routing
 const axios = require('axios'); // HTTP requesst
+const cors = require('cors');
 
 const app = express(); //Iniciaización
 const PORT = process.env.PORT || 3000;
 
+app.use(cors()); // habilitando cors
+
+//habilitando files staticos
+app.use(express.static('public'));
 // Definiendo un endpoint para buscar y mostrar data
 app.get('/api/users', async (req, res) => {
     try {

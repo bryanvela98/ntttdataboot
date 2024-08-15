@@ -1,5 +1,5 @@
 //Cod. Propio
-// Buscar data del usuario desde BACKEND
+// Buscar data del usuario desde BACKEND y muestrearlo
 document.addEventListener('DOMContentLoaded', () => {
     fetch('/api/users')
         .then(response => response.json())
