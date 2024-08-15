@@ -1,0 +1,38 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+#user-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.user {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+}
+
+.user img {
+    border-radius: 50%;
+}
+
+.user h2 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.user p {
+    margin: 5px 0;
+}
